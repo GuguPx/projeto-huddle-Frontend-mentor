@@ -3,7 +3,7 @@ body{
 }
 .container{
     display: grid;
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr 100px;
     background: url(../images/bg-mobile.svg);
     background-size: cover;
     background-repeat: contain;

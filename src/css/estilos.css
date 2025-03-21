@@ -6,7 +6,7 @@
         background-attachment: fixed;
     }
     .header-logo a img{
-        max-width: 300px;
+        max-width: 200px;
     }
     .principal{
         display: flex;
