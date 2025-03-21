@@ -2,12 +2,11 @@
     .container{
         background: url(../images/bg-desktop.svg);
         background-repeat: no-repeat;
-        background-size: 100% auto;
+        background-size: cover;
         background-attachment: fixed;
-        background-position: center top;
     }
     .header-logo a img{
-        max-width: 11%;
+        max-width: 300px;
     }
     .principal{
         display: flex;

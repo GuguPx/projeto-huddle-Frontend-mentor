@@ -5,8 +5,9 @@ body{
     display: grid;
     grid-template-rows: 1fr 4fr 1fr;
     background: url(../images/bg-mobile.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: contain;
+    min-height: 100vh;
 }
 .container .header-logo{
     padding: 50px 30px;
@@ -48,6 +49,14 @@ color: #fff;
     justify-content: center;
     align-items: center;
 }
+.rodape a i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
 .rodape a{
     margin: 0 15px;
     padding: 10px;
